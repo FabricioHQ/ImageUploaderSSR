@@ -1,5 +1,6 @@
 <script>
 import { goto } from '@sapper/app';
+
   let files;
   $: if(files && files[0]){
 		let reader = new FileReader();
